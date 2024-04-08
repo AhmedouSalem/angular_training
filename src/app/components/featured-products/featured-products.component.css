@@ -1,0 +1,120 @@
+.carousel-item .custom-carousel-content {
+    width: 50%;
+    transform: translate(0%, -10%);
+}
+
+.custom-carousel-content {
+    text-align: start;
+}
+
+.custom-carousel-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.custom-carousel-content h1 span {
+    color: #fbff00;
+}
+
+.custom-carousel-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.custom-carousel-content .btn-slider {
+    border: 1px solid #fff;
+    border-radius: 0px;
+    padding: 8px 26px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+img {
+    max-width: 55vh;
+    max-height: 65vh;
+    min-height: 65vh;
+    margin-right: 20vh;
+}
+
+.align-right {
+    float: inline-end;
+}
+
+.carousel {
+    background-image: url('../../../assets/images/background.jpg');
+    width: 100%;
+}
+
+.custom-carousel-content h1,
+.custom-carousel-content p {
+    color: black;
+}
+
+
+
+/* CSS pour les petits écrans (mobile) */
+@media (max-width: 576px) {
+    .carousel-item .custom-carousel-content {
+        width: 60%;
+    }
+
+    .custom-carousel-content h1,
+    .custom-carousel-content p {
+        margin-bottom: 10px;
+        font-size: 0.9em;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        bottom: 0;
+        /* left: 50%; */
+        transform: translateY(2%);
+    }
+
+    img {
+        max-width: 20vh;
+        max-height: 35vh;
+        min-height: 35vh;
+        margin-right: 5vh;
+    }
+
+    .carousel-item {
+        height: 45vh;
+    }
+}
+
+/* CSS pour les écrans de taille moyenne (tablette) */
+@media (min-width: 578px) and (max-width: 844px) {
+    .carousel-item .custom-carousel-content {
+        width: 70%;
+    }
+
+    img {
+        max-width: 30vh;
+        /* max-height: 60vh;
+        min-height: 60vh; */
+        margin-right: 10vh;
+    }
+
+    .carousel-item {
+        height: 70vh;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        bottom: 0;
+        /* left: 50%; */
+        transform: translateY(10%);
+    }
+
+    .custom-carousel-content h1{
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+}

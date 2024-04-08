@@ -1,0 +1,16 @@
+footer {
+  left: 0px;
+  bottom: 0px;
+  /* position: fixed; */
+  width: 100%;
+  margin: 0;
+  /* min-height: calc(100vh - 89px); */
+}
+
+i {
+  color: #0d6efd;
+}
+
+a {
+  text-decoration: none;
+}
